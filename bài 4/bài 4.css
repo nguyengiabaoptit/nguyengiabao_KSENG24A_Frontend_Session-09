@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    
+  }
+
+  .header{
+    background-color: aqua;
+    height: 6%;
+    width: 98.6%;
+  }
+  .body{
+    height: 84%;
+    width: 100%;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+  }
+  .body .sidebar{
+background-color: greenyellow;
+width: 25%;
+  }
+  .body .content{
+background-color: red;
+width: 73%;
+  }
+
+  .footer{
+    background-color: violet;
+    height: 6%;
+    width: 98.6%;
+  }
